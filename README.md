@@ -6,7 +6,7 @@ To run this program, follow these steps:
 (if this mongo address is already being used, remove the connection with $docker rm name. "name" is the name of the connection already in use)
 
 Now that the database is connected, run the program itself, using:
-$node src/index.js
+$npm start
 (to stop the program, kill the process with ctrl-c in bash)
 
 Postman was used to test the HTTP requests
